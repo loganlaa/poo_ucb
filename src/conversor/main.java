@@ -5,7 +5,7 @@ public class main {
     public static void main(String[] args) {
             // Se o usuário escolher celsios -- voce converte oara ceulsius. Se escolher Farenheit, converta para farenheit
             Scanner entrada = new Scanner(System.in);
-            double final_temp ;
+            double final_temp;
 
             System.out.println("Digite a temperatura: ");
             double temperature = entrada.nextDouble();

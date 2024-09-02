@@ -6,13 +6,18 @@ public class PessoaTeste {
         Pessoa p1 = new Pessoa();
 
         p1.nome = "Lôgan Alvim"; // Está acessando o atributo nome da Classe Pessoa através do Ponto ( Através do Ponto acessamos os membros da Classe, seja métodos ou atributos )
-        p1.idade = 21;
+        p1.idade = 6;
         p1.peso = 85;
 
-        System.out.println(p1.nome);
-        System.out.println(p1.idade);
-        System.out.println(p1.peso);
-        System.out.println(p1.altura);
+        p1.imprimirInfo();
+
+        int novaIdade = p1.fazerAniversario();
+
+        if (novaIdade >= 8){
+            System.out.println("Ok");
+        }else {
+            System.out.println("Not Ok");
+        }
 
     }
 

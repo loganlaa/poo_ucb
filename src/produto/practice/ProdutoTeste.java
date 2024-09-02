@@ -7,7 +7,7 @@ public class ProdutoTeste {
         arroz.preco = 50;
         arroz.desconto = 0.10;
 
-        var feijao = new Produto();
+        var feijao = new Produto();  // Isso é inferencia de dados (printf também entra nessa)
         feijao.nome = "Valdemar";  // Atribuindo valor
         feijao.preco = 50;
         feijao.desconto = 0.40;
@@ -24,7 +24,4 @@ public class ProdutoTeste {
 
     }
 }
-// DESAFIO
-// Crie uma classe com os atributos de um livro :
-// Titulo, preco, autor, ano de publicacao
-// Crie uma classe LivroTeste e acesse os atributos dessa classe atribuindo valores a esses atributos, imprimindo-os no console...
+// os membros referem-se aos elementos que compõem uma classe

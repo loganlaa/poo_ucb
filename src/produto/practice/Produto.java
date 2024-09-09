@@ -6,6 +6,6 @@ public class Produto {
     double desconto;
 
     double descGerencia() {
-        return (1 - descontoGerencia);
+        return 1; //(1 - (double descontoGerencia));
     }
 }

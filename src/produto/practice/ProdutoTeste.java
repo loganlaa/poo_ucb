@@ -38,23 +38,14 @@ public class ProdutoTeste {
         int into = input.nextInt();
         if (into == 1) {
             System.out.println("Quanto será o desconto?");
-            int desc = entrada.nextDouble();
+            int desc = input.nextInt();
             System.out.println("Valor FInal = " + total * arroz.descGerencia());
         }
         if (into == 2) {
-            final_temp = (temperature * 9 / 5.0) + 32;
-            System.out.println(final_temp);
+            //final_temp = (temperature * 9 / 5.0) + 32;
+            //System.out.println(final_temp);
         }
     }
 }
 
-
-
-
-
-
-
-
-    }
-}
 // os membros referem-se aos elementos que compõem uma classe

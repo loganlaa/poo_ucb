@@ -67,16 +67,19 @@ class Professor extends Pessoa {
 public class Heranca {
     public static void main(String[] args) {
 
+        System.out.println("Pessoa");
         Pessoa p1 = new Pessoa("Robson", 42);
         p1.exibirInfo();
 
         System.out.println();
 
+        System.out.println("Aluno");
         Aluno a1 = new Aluno("Logan", 21, "UC24100334");
         a1.exibirInfo();
 
         System.out.println();
 
+        System.out.println("Professor");
         Professor p2 = new Professor("Victor", 35, 3000);
         p2.exibirInfo();
 

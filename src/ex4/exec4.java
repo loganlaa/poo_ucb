@@ -86,6 +86,16 @@ class Concessionaria {
 
 public class exec4 {
     public static void main(String[] args) {
+        Carro c1 = new Carro("Wolksvagen", "uno", 1950);
+        Moto m1 = new Moto("BMW", "Rayabusa", 2020);
+
+        Concessionaria byd = new Concessionaria();
+        byd.adicionarVeiculo(c1);
+        byd.adicionarVeiculo(m1);
+
+        byd.listarVeiculos();
+        byd.removerVeiculo(m1);
+        byd.listarVeiculos();
 
     }
 }
